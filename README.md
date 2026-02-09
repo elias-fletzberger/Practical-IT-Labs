@@ -23,7 +23,7 @@ Dieses Repository dient als praxisnahes IT-Lab, um typische Aufgaben aus dem 1st
 - Mitarbeit und Umsetzung kleiner IT-Projekte
 
 ## Labs
-- Lab 01: Windows Client Support & User-Troubleshooting (planned)
+- Lab 01: Windows 11 Client- & Benutzeradministration mit Support-Szenarien (planned)
 - Lab 02: SQL & Datenbank-Support für Kassensysteme (planned)
 - Lab 03: Mini-IT-Projekt: Neue Filiale anbinden (planned)
 
