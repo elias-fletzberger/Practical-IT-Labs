@@ -45,6 +45,7 @@ Alle Szenarien folgen einem einheitlichen Schema:
 3. Ursachenfeststellung
 4. Umsetzung der Lösung
 5. Ergebnisprüfung und Dokumentation
+
 Dieses strukturierte Vorgehen orientiert sich an Best Practices im IT-Support und Systembetrieb.
 
 <br>
