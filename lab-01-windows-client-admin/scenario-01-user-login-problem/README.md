@@ -3,7 +3,7 @@
 ## Ausgangslage
 Ein Benutzer meldet, dass die Anmeldung am Windows-Client nicht möglich ist bzw. ein temporäres Profil geladen wird.
 <br>
-[Ausgangslage](screenshots/01-ausgangslage-benutzerkonten.png)
+[Ausgangslage](screenshots/02-login-fehlermeldung-temporäres-profil.png)
 
 <br>
   
@@ -28,6 +28,7 @@ Benutzer kann sich wieder erfolgreich anmelden, das Profil wird korrekt geladen.
 
 ## Fazit
 Strukturiertes Vorgehen ermöglicht eine schnelle Wiederherstellung der Arbeitsfähigkeit des Anwenders.
+
 
 
 
