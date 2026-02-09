@@ -19,7 +19,7 @@ Der Fokus liegt auf:
 
 
 ## Szenario 1 – Benutzer kann sich nicht anmelden (Profilproblem)
-###Ausgangslage
+### Ausgangslage
 Ein Benutzer meldet, dass die Anmeldung am Windows-Client nicht möglich ist bzw. ein temporäres Profil geladen wird.
 
 ### Analyse
