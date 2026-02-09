@@ -35,7 +35,9 @@ Der Fokus liegt auf:
 - Tools:
   - Windows Bordmittel (Ereignisanzeige, Dienste, Systemsteuerung)
   - Eingabeaufforderung / PowerShell
- 
+
+<br>
+
 ## Dokumentation & Vorgehensweise
 Alle Szenarien folgen einem einheitlichen Schema:
 1. Problemaufnahme (Usermeldung)
@@ -43,8 +45,9 @@ Alle Szenarien folgen einem einheitlichen Schema:
 3. Ursachenfeststellung
 4. Umsetzung der Lösung
 5. Ergebnisprüfung und Dokumentation
-
 Dieses strukturierte Vorgehen orientiert sich an Best Practices im IT-Support und Systembetrieb.
+
+<br>
 
 ## Fazit
 Dieses Lab zeigt praxisnah den Umgang mit typischen Windows-11-Support- und Administrationsaufgaben, wie sie im Helpdesk und im Client-Management regelmäßig auftreten.
