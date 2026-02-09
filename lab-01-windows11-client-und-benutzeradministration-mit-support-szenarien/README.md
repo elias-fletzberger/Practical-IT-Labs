@@ -40,6 +40,9 @@ Beschädigtes lokales Benutzerprofil.
 ### Ergebnis
 Benutzer kann sich wieder erfolgreich anmelden, persönliche Daten wurden wiederhergestellt.
 
+<br>
+<br>
+
 ## Szenario 2 – Keine Netzwerkverbindung / kein Internetzugang
 ### Ausgangslage
 Ein Arbeitsplatz meldet fehlenden Internetzugang, andere Systeme sind nicht betroffen.
