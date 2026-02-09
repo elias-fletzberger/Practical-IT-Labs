@@ -8,6 +8,26 @@ Der Fokus liegt auf:
 - Fehleranalyse und Troubleshooting
 - Dokumentation technischer Maßnahmen
 
+<br>
+<br>
+
+## Szenarien Übersicht
+
+### Szenario 1 – Benutzer kann sich nicht anmelden (Profilproblem)
+- Ordner: [user login problem](scenario-01-user-login-problem)
+- Schwerpunkt: Benutzerprofile, Anmeldung, Fehleranalyse
+
+### Szenario 2 – Keine Netzwerkverbindung / kein Internetzugang
+- Ordner: [network issue](scenario-02-network-issue)
+- Schwerpunkt: Netzwerkdiagnose, Client-Networking
+  
+### Szenario 3 – Software startet nicht nach Installation
+- Ordner: [software installation](scenario-03-software-installation)
+- Schwerpunkt: Softwarinstallation, Benutzerrechte
+
+<br>
+<br>
+
 ## Testumgebung
 - Betriebssystem: Windows 11 Pro
 - enutzerkonten: Lokale Benutzerkonten (Simulation Unternehmensumfeld)
@@ -15,77 +35,7 @@ Der Fokus liegt auf:
 - Tools:
   - Windows Bordmittel (Ereignisanzeige, Dienste, Systemsteuerung)
   - Eingabeaufforderung / PowerShell
-
-<br>
-<br>
-<br>
-
-## Szenario 1 – Benutzer kann sich nicht anmelden (Profilproblem)
-### Ausgangslage
-Ein Benutzer meldet, dass die Anmeldung am Windows-Client nicht möglich ist bzw. ein temporäres Profil geladen wird.
-
-### Analyse
-- Überprüfung der Fehlermeldung beim Login
-- Kontrolle der Ereignisanzeige (User Profile Service)
-- Prüfung vorhandener Benutzerprofile unter `C:\Users`
-
-### Ursache
-Beschädigtes lokales Benutzerprofil.
-
-### Lösung
-- Anmeldung mit administrativem Konto
-- Sicherung der Benutzerdaten
-- Entfernen des defekten Profils
-- Neuerstellung des Benutzerprofils
-
-### Ergebnis
-Benutzer kann sich wieder erfolgreich anmelden, persönliche Daten wurden wiederhergestellt.
-
-<br>
-<br>
-<br>
-
-## Szenario 2 – Keine Netzwerkverbindung / kein Internetzugang
-### Ausgangslage
-Ein Arbeitsplatz meldet fehlenden Internetzugang, andere Systeme sind nicht betroffen.
-
-### Analyse
-
-
-### Ursache
-
-
-### Lösung
-
-
-### Ergebnis
-
-
-<br>
-<br>
-<br>
-
-## Szenario 3 – Software startet nicht nach Installation
-### Ausgangslage
-Nach Installation einer Fachanwendung startet die Software nicht oder beendet sich sofort.
-
-### Analyse
-
-
-### Ursache
-
-
-### Lösung
-
-
-### Ergebnis
-
-
-<br>
-<br>
-<br>
-<br>
-
+ 
 ## Dokumentation & Vorgehensweise
 Alle Szenarien folgen einem einheitlichen Schema:
 1. Problemaufnahme (Usermeldung)
