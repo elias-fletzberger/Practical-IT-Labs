@@ -27,7 +27,7 @@ Ein Benutzer meldet, dass die Anmeldung am Windows-Client nicht möglich ist bzw
 ### Analyse
 - Überprüfung der Fehlermeldung beim Login
 - Kontrolle der Ereignisanzeige (User Profile Service)
-- Prüfung vorhandener Benutzerprofile unter C:\Users
+- Prüfung vorhandener Benutzerprofile unter `C:\Users`
 
 ### Ursache
 Beschädigtes lokales Benutzerprofil.
@@ -50,19 +50,16 @@ Benutzer kann sich wieder erfolgreich anmelden, persönliche Daten wurden wieder
 Ein Arbeitsplatz meldet fehlenden Internetzugang, andere Systeme sind nicht betroffen.
 
 ### Analyse
-- ipconfig /all zur Überprüfung der IP-Konfiguration
-- Prüfung von Gateway- und DNS-Einstellungen
-- Verbindungstest mittels ping
+
 
 ### Ursache
-Fehlerhafte DNS-Konfiguration durch manuelle Änderung.
+
 
 ### Lösung
-- Rücksetzen der Netzwerkeinstellungen auf DHCP
-- Erneuerung der IP-Konfiguration
+
 
 ### Ergebnis
-Netzwerk- und Internetverbindung wiederhergestellt.
+
 
 <br>
 <br>
@@ -73,20 +70,16 @@ Netzwerk- und Internetverbindung wiederhergestellt.
 Nach Installation einer Fachanwendung startet die Software nicht oder beendet sich sofort.
 
 ### Analyse
-- Prüfung der Installationsrechte
-- Kontrolle der Ereignisanzeige
-- Überprüfung von Benutzerrechten
+
 
 ### Ursache
-Software wurde ohne administrative Rechte installiert.
+
 
 ### Lösung
-- Deinstallation der Anwendung
-- Neuinstallation mit administrativen Rechten
-- Test mit Standardbenutzerkonto
+
 
 ### Ergebnis
-Software startet fehlerfrei und steht dem Benutzer zur Verfügung.
+
 
 <br>
 <br>
