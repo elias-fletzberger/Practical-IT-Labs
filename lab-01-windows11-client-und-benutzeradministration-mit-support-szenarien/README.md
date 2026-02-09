@@ -16,7 +16,7 @@ Der Fokus liegt auf:
   - Windows Bordmittel (Ereignisanzeige, Dienste, Systemsteuerung)
   - Eingabeaufforderung / PowerShell
 
-
+<br>
 
 ## Szenario 1 – Benutzer kann sich nicht anmelden (Profilproblem)
 ### Ausgangslage
