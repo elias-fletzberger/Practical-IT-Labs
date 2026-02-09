@@ -17,6 +17,7 @@ Der Fokus liegt auf:
   - Eingabeaufforderung / PowerShell
 
 <br>
+<br>
 
 ## Szenario 1 – Benutzer kann sich nicht anmelden (Profilproblem)
 ### Ausgangslage
