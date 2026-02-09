@@ -2,6 +2,7 @@
 
 ## Ausgangslage
 Ein Benutzer meldet, dass die Anmeldung am Windows-Client nicht möglich ist bzw. ein temporäres Profil geladen wird.
+![Ausgangslage](screenshots/01-ausgangslage-benutzerkonten.png)
 
 ## Umgebung
 - Betriebssystem: Windows 11 Pro
@@ -9,8 +10,11 @@ Ein Benutzer meldet, dass die Anmeldung am Windows-Client nicht möglich ist bzw
   
 ## Analyse
 - Überprüfung der Fehlermeldung beim Login
-- Kontrolle der Ereignisanzeige (User Profile Service)
-- Überprüfung des Benutzerprofilordners `C:\Users`
+- Benutzeranmeldung führte zu einem temporären Profil
+- Prüfung der Ereignisanzeige ergab Fehler des „User Profile Service“
+
+  ![Ereignisanzeige](screenshots/03-ereignisanzeige-user-profile-service-1533.png)
+- Überprüfung des Profilverzeichnisses unter `C:\Users` zeigte eine inkonsistente Ordnerstruktur
 
 ## Ursache
 Das Benutzerprofil konnte nicht korrekt geladen werden, da der Profilordner fehlerhaft war.
@@ -25,3 +29,4 @@ Benutzer kann sich wieder erfolgreich anmelden, das Profil wird korrekt geladen.
 
 ## Fazit
 Strukturiertes Vorgehen ermöglicht eine schnelle Wiederherstellung der Arbeitsfähigkeit des Anwenders.
+
