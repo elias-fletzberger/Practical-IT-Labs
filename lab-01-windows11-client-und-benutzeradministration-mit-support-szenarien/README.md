@@ -43,6 +43,7 @@ Benutzer kann sich wieder erfolgreich anmelden, persönliche Daten wurden wieder
 
 <br>
 <br>
+<br>
 
 ## Szenario 2 – Keine Netzwerkverbindung / kein Internetzugang
 ### Ausgangslage
@@ -63,7 +64,9 @@ Fehlerhafte DNS-Konfiguration durch manuelle Änderung.
 ### Ergebnis
 Netzwerk- und Internetverbindung wiederhergestellt.
 
-
+<br>
+<br>
+<br>
 
 ## Szenario 3 – Software startet nicht nach Installation
 ### Ausgangslage
@@ -85,7 +88,9 @@ Software wurde ohne administrative Rechte installiert.
 ### Ergebnis
 Software startet fehlerfrei und steht dem Benutzer zur Verfügung.
 
-
+<br>
+<br>
+<br>
 
 ## Dokumentation & Vorgehensweise
 Alle Szenarien folgen einem einheitlichen Schema:
