@@ -16,109 +16,81 @@ Der Fokus liegt auf:
   - Windows Bordmittel (Ereignisanzeige, Dienste, Systemsteuerung)
   - Eingabeaufforderung / PowerShell
 
+
+
 ## Szenario 1 – Benutzer kann sich nicht anmelden (Profilproblem)
 ###Ausgangslage
-
 Ein Benutzer meldet, dass die Anmeldung am Windows-Client nicht möglich ist bzw. ein temporäres Profil geladen wird.
 
-Analyse
+### Analyse
+- Überprüfung der Fehlermeldung beim Login
+- Kontrolle der Ereignisanzeige (User Profile Service)
+- Prüfung vorhandener Benutzerprofile unter C:\Users
 
-Überprüfung der Fehlermeldung beim Login
-
-Kontrolle der Ereignisanzeige (User Profile Service)
-
-Prüfung vorhandener Benutzerprofile unter C:\Users
-
-Ursache
-
+### Ursache
 Beschädigtes lokales Benutzerprofil.
 
-Lösung
+### Lösung
+- Anmeldung mit administrativem Konto
+- Sicherung der Benutzerdaten
+- Entfernen des defekten Profils
+- Neuerstellung des Benutzerprofils
 
-Anmeldung mit administrativem Konto
-
-Sicherung der Benutzerdaten
-
-Entfernen des defekten Profils
-
-Neuerstellung des Benutzerprofils
-
-Ergebnis
-
+### Ergebnis
 Benutzer kann sich wieder erfolgreich anmelden, persönliche Daten wurden wiederhergestellt.
 
-Szenario 2 – Keine Netzwerkverbindung / kein Internetzugang
-Ausgangslage
-
+## Szenario 2 – Keine Netzwerkverbindung / kein Internetzugang
+### Ausgangslage
 Ein Arbeitsplatz meldet fehlenden Internetzugang, andere Systeme sind nicht betroffen.
 
-Analyse
+### Analyse
+- ipconfig /all zur Überprüfung der IP-Konfiguration
+- Prüfung von Gateway- und DNS-Einstellungen
+- Verbindungstest mittels ping
 
-ipconfig /all zur Überprüfung der IP-Konfiguration
-
-Prüfung von Gateway- und DNS-Einstellungen
-
-Verbindungstest mittels ping
-
-Ursache
-
+### Ursache
 Fehlerhafte DNS-Konfiguration durch manuelle Änderung.
 
-Lösung
+### Lösung
+- Rücksetzen der Netzwerkeinstellungen auf DHCP
+- Erneuerung der IP-Konfiguration
 
-Rücksetzen der Netzwerkeinstellungen auf DHCP
-
-Erneuerung der IP-Konfiguration
-
-Ergebnis
-
+### Ergebnis
 Netzwerk- und Internetverbindung wiederhergestellt.
 
-Szenario 3 – Software startet nicht nach Installation
-Ausgangslage
 
+
+## Szenario 3 – Software startet nicht nach Installation
+### Ausgangslage
 Nach Installation einer Fachanwendung startet die Software nicht oder beendet sich sofort.
 
-Analyse
+### Analyse
+- Prüfung der Installationsrechte
+- Kontrolle der Ereignisanzeige
+- Überprüfung von Benutzerrechten
 
-Prüfung der Installationsrechte
-
-Kontrolle der Ereignisanzeige
-
-Überprüfung von Benutzerrechten
-
-Ursache
-
+### Ursache
 Software wurde ohne administrative Rechte installiert.
 
-Lösung
+### Lösung
+- Deinstallation der Anwendung
+- Neuinstallation mit administrativen Rechten
+- Test mit Standardbenutzerkonto
 
-Deinstallation der Anwendung
-
-Neuinstallation mit administrativen Rechten
-
-Test mit Standardbenutzerkonto
-
-Ergebnis
-
+### Ergebnis
 Software startet fehlerfrei und steht dem Benutzer zur Verfügung.
 
-Dokumentation & Vorgehensweise
 
+
+## Dokumentation & Vorgehensweise
 Alle Szenarien folgen einem einheitlichen Schema:
-
-Problemaufnahme (Usermeldung)
-
-Analyse und Eingrenzung
-
-Ursachenfeststellung
-
-Umsetzung der Lösung
-
-Ergebnisprüfung und Dokumentation
+1. Problemaufnahme (Usermeldung)
+2. Analyse und Eingrenzung
+3. Ursachenfeststellung
+4. Umsetzung der Lösung
+5. Ergebnisprüfung und Dokumentation
 
 Dieses strukturierte Vorgehen orientiert sich an Best Practices im IT-Support und Systembetrieb.
 
-Fazit
-
+## Fazit
 Dieses Lab zeigt praxisnah den Umgang mit typischen Windows-11-Support- und Administrationsaufgaben, wie sie im Helpdesk und im Client-Management regelmäßig auftreten.
