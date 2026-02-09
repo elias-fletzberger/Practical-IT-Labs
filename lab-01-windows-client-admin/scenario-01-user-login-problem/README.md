@@ -15,19 +15,28 @@ Ein Benutzer meldet, dass die Anmeldung am Windows-Client nicht möglich ist bzw
   ![Ereignisanzeige](screenshots/03-ereignisanzeige-user-profile-service-1533.png)
 - Überprüfung des Profilverzeichnisses unter `C:\Users` zeigte eine inkonsistente Ordnerstruktur
 
+<br>
+
 ## Ursache
 Das Benutzerprofil konnte nicht korrekt geladen werden, da der Profilordner fehlerhaft war.
+
+<br>
 
 ## Lösung
 - Anmeldung mit Administratorkonto
 - Wiederherstellung des ursprünglichen Benutzerprofilordners
 - Erneute Anmeldung des Benutzers
 
+<br>
+
 ## Ergebnis
 Benutzer kann sich wieder erfolgreich anmelden, das Profil wird korrekt geladen.
 
+<br>
+
 ## Fazit
 Strukturiertes Vorgehen ermöglicht eine schnelle Wiederherstellung der Arbeitsfähigkeit des Anwenders.
+
 
 
 
