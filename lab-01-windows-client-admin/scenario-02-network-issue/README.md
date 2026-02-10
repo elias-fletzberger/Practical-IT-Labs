@@ -2,7 +2,8 @@
 
 ## Ausgangslage
 Ein Arbeitsplatz meldet fehlenden Internetzugang, obwohl die Netzwerkverbindung aktiv ist, andere Systeme sind nicht betroffen.
-<br><br>
+<br>
+<br>
 ![Ausgangslage](screenshots/01-ausgangslage-kein-internetzugriff.png)
 
 <br>
@@ -32,6 +33,7 @@ Internetverbindung und Namensauflösung funktionieren wieder einwandfrei.
 
 ## Fazit
 Systematische Netzwerkdiagnose ermöglicht eine schnelle Eingrenzung der Fehlerursache.
+
 
 
 
