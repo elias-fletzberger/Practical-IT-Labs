@@ -30,8 +30,8 @@ Dieses Lab simuliert typische Aufgaben aus dem 1st- und 2nd-Level-Support sowie 
 <br>
 
 ## Testumgebung
-- Betriebssystem: Windows 11 Pro
-- enutzerkonten: Lokale Benutzerkonten (Simulation Unternehmensumfeld)
+- Betriebssystem: Windows 11 Pro (VM)
+- Benutzerkonten: Lokale Benutzerkonten (admin, user01)
 - Netzwerk: Standard LAN/WLAN (DHCP)
 - Tools:
   - Windows Bordmittel (Ereignisanzeige, Dienste, Systemsteuerung)
