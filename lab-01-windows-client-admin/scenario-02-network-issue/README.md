@@ -13,6 +13,7 @@ Ein Arbeitsplatz meldet fehlenden Internetzugang, obwohl die Netzwerkverbindung 
 - Erreichbarkeit externer IP-Adressen getestet
 - DNS-Auflösung geprüft
 <br>
+
 ![ping ip - dns](screenshots/03-ping-ip-ok-dns-fehler.png)
 
 <br>
@@ -35,6 +36,7 @@ Internetverbindung und Namensauflösung funktionieren wieder einwandfrei.
 
 ## Fazit
 Systematische Netzwerkdiagnose ermöglicht eine schnelle Eingrenzung der Fehlerursache.
+
 
 
 
