@@ -19,6 +19,7 @@ Ein Arbeitsplatz meldet fehlenden Internetzugang, obwohl die Netzwerkverbindung 
 
 ## Ursache
 Falsch konfigurierte DNS-Einstellungen am Client.
+
 ![falsche dns ip](screenshots/03-fehler-dns-ip.png)
 
 <br>
@@ -36,6 +37,7 @@ Internetverbindung und Namensauflösung funktionieren wieder einwandfrei.
 
 ## Fazit
 Systematische Netzwerkdiagnose ermöglicht eine schnelle Eingrenzung der Fehlerursache.
+
 
 
 
