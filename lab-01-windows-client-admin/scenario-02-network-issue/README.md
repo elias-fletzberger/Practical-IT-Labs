@@ -2,6 +2,7 @@
 
 ## Ausgangslage
 Ein Arbeitsplatz meldet fehlenden Internetzugang, obwohl die Netzwerkverbindung aktiv ist, andere Systeme sind nicht betroffen.
+![Ausgangslage](screenshots/02-login-fehlermeldung-temporäres-profil.png)
 
 <br>
 
@@ -30,3 +31,4 @@ Internetverbindung und Namensauflösung funktionieren wieder einwandfrei.
 
 ## Fazit
 Systematische Netzwerkdiagnose ermöglicht eine schnelle Eingrenzung der Fehlerursache.
+
