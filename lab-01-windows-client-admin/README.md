@@ -2,7 +2,7 @@
 
 ## Ziel des Labs
 Dieses Lab simuliert typische Aufgaben aus dem 1st- und 2nd-Level-Support sowie der Windows-Client-Administration. Ziel ist es, reale Support- und Administrationsszenarien strukturiert zu analysieren, zu lösen und nachvollziehbar zu dokumentieren.
-Der Fokus liegt auf:
+#### Der Fokus liegt auf:
 - Windows 11 Client-Support
 - Benutzer- und Profilverwaltung
 - Fehleranalyse und Troubleshooting
