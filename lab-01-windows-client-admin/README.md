@@ -1,11 +1,12 @@
-# Lab 01 – Windows 11 Client- & Benutzeradministration mit Support-Szenarien
+# Lab 01 – Windows 11 Client- & Benutzeradministration (Support-Szenarien)
 
 ## Ziel des Labs
-Dieses Lab simuliert typische Aufgaben aus dem 1st- und 2nd-Level-Support sowie der Windows-Client-Administration. Ziel ist es, reale Support- und Administrationsszenarien strukturiert zu analysieren, zu lösen und nachvollziehbar zu dokumentieren.
+Dieses Lab bildet typische Aufgaben aus dem 1st- und 2nd-Level-Support sowie der Windows-Client-Administration praxisnah ab. Ziel ist es, reale Support- und Administrationsszenarien strukturiert zu analysieren, zu lösen und nachvollziehbar zu dokumentieren.
 
-#### Der Fokus liegt auf:
+## Schwerpunkte:
 - Windows 11 Client-Support
 - Benutzer- und Profilverwaltung
+- Netzwerkdiagnose auf Client-Ebene
 - Fehleranalyse und Troubleshooting
 - Dokumentation technischer Maßnahmen
 
@@ -15,23 +16,23 @@ Dieses Lab simuliert typische Aufgaben aus dem 1st- und 2nd-Level-Support sowie 
 ## Szenarien Übersicht
 
 ### Szenario 1 – Benutzer kann sich nicht anmelden (Profilproblem)
-- Ordner: [user login problem](scenario-01-user-login-problem)
+- [zu Szenario 1](scenario-01-user-login-problem)
 - Schwerpunkt: Benutzerprofile, Anmeldung, Fehleranalyse
 
 ### Szenario 2 – Keine Netzwerkverbindung / kein Internetzugang
-- Ordner: [network issue](scenario-02-network-issue)
-- Schwerpunkt: Netzwerkdiagnose, Client-Networking
+- [zu Szenario 2](scenario-02-network-issue)
+- Schwerpunkt: Netzwerkdiagnose, Client-Netzwerkkommunikation
   
 ### Szenario 3 – Software startet nicht nach Installation
-- Ordner: [software installation](scenario-03-software-installation)
-- Schwerpunkt: Softwarinstallation, Benutzerrechte
+- [zu Szenario 3](scenario-03-software-installation)
+- Schwerpunkt: Softwareinstallation, Benutzerrechte
 
 <br>
 <br>
 
 ## Testumgebung
 - Betriebssystem: Windows 11 Pro (VM)
-- Benutzerkonten: Lokale Benutzerkonten (admin, user01)
+- Benutzerkonten: Lokaler Administrator (admin), Standardbenutzer (user01)
 - Netzwerk: Standard LAN/WLAN (DHCP)
 - Tools:
   - Windows Bordmittel (Ereignisanzeige, Dienste, Systemsteuerung)
@@ -47,9 +48,10 @@ Alle Szenarien folgen einem einheitlichen Schema:
 4. Umsetzung der Lösung
 5. Ergebnisprüfung und Dokumentation
 
-Dieses strukturierte Vorgehen orientiert sich an Best Practices im IT-Support und Systembetrieb.
+Das Vorgehen orientiert sich an einem strukturierten Supportprozess.
+(Problemaufnahme → Analyse → Ursache → Lösung → Verifikation)
 
 <br>
 
 ## Fazit
-Dieses Lab zeigt praxisnah den Umgang mit typischen Windows-11-Support- und Administrationsaufgaben, wie sie im Helpdesk und im Client-Management regelmäßig auftreten.
+Dieses Lab demonstriert praxisnah typische Support- und Administrationsaufgaben im Windows-Umfeld. Es zeigt ein strukturiertes Vorgehen bei der Fehleranalyse sowie einen sicheren Umgang mit Benutzerkonten, Netzwerkdiagnose und Softwareinstallation im Client-Betrieb.
