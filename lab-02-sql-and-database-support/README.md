@@ -6,6 +6,8 @@
 - Daten analysieren
 - Support-Szenarien mit SQL lösen
 
+<br>
+
 ## Schwerpunkte:
 - SELECT, WHERE, GROUP BY, JOIN
 - Aggregatfunktionen (SUM, COUNT)
@@ -28,3 +30,4 @@
 <br>
 
 ## Fazit
+
