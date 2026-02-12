@@ -1,11 +1,31 @@
-SELECT *
-FROM 
-	--stores;
-	sales;
-	--products;
+CREATE TABLE stores (
+	id SERIAL PRIMARY KEY,
+	name VARCHAR(100) NOT NULL,
+	city VARCHAR(100) NOT NULL
+);
 
-CREATE TABLE test_money (
-	name VARCHAR(20),
-	preis_numeric NUMERIC(10,2),
-	pre
-)
+
+CREATE TABLE products (
+	id SERIAL PRIMARY KEY,
+	name VARCHAR(100) NOT NULL,
+	price NUMERIC(10,2) NOT NULL
+);
+
+
+CREATE TABLE sales (
+	id SERIAL PRIMARY KEY,
+	store_id INTEGER NOT NULL,
+	product_id INTEGER NOT NULL,
+	quantity INTEGER NOT NULL,
+	sale_date DATE NOT NULL,
+
+	CONSTRAINT fk_store
+		FOREIGN KEY (store_id)
+		REFERENCES stores(id)
+		ON DELETE CASCADE,
+
+	CONSTRAINT fk_product
+		FOREIGN KEY (product_id)
+		REFERENCES products(id)
+		ON DELETE CASCADE
+);
