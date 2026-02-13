@@ -31,12 +31,13 @@ Falsch konfigurierte DNS-Einstellungen am Client.
 <br>
 
 ## Ergebnis
-Internetverbindung und Namensauflösung funktionieren wieder einwandfrei.
+Internetverbindung und Domain-Namensauflösung funktionieren wieder einwandfrei.
 
 <br>
 
 ## Fazit
 Systematische Netzwerkdiagnose ermöglicht eine schnelle Eingrenzung der Fehlerursache.
+
 
 
 
