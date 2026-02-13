@@ -3,6 +3,8 @@
 ## Profil
 Ausgebildeter Assistent für Informatik mit aktueller CCST-Zertifizierung. Beruflicher Fokus auf IT-Support, Systemadministration und Infrastruktur-Betrieb mit Schwerpunkt auf Windows-Clients, grundlegender Server-Administration, Anwenderbetreuung und strukturierter Fehleranalyse.
 
+<br>
+
 ## Motivation
 Dieses Repository dient als praxisnahes IT-Lab, um typische Aufgaben aus dem 1st- und 2nd-Level-Support realistisch abzubilden, strukturiert zu dokumentieren und nachvollziehbar zu lösen. Alle Labs orientieren sich an realen Anforderungen aus Unternehmens- und Handelsumgebungen.
 
@@ -16,6 +18,8 @@ Dieses Repository dient als praxisnahes IT-Lab, um typische Aufgaben aus dem 1st
 - Demonstration von Analysefähigkeit, strukturierter Arbeitsweise und Serviceorientierung
 - Grundlage für eine langfristige Erweiterung um weitere Infrastruktur- und System-Labs
 
+<br>
+
 ## Inhalt & Schwerpunkte
 - Anwenderbetreuung & Helpdesk (1st- & 2nd-Level)
 - Windows Client- und grundlegende Server-Administration
@@ -25,7 +29,6 @@ Dieses Repository dient als praxisnahes IT-Lab, um typische Aufgaben aus dem 1st
 - SQL-Grundlagen & Datenbank-Support
 - Mitarbeit und Umsetzung kleiner IT-Projekte
 
-<br>
 <br>
 
 ## Labs
