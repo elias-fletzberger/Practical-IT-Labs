@@ -20,17 +20,6 @@ Dieses Repository dient als praxisnahes IT-Lab, um typische Aufgaben aus dem 1st
 
 <br>
 
-## Inhalt & Schwerpunkte
-- Anwenderbetreuung & Helpdesk (1st- & 2nd-Level)
-- Windows Client- und grundlegende Server-Administration
-- Benutzer-, Rechte- und Profilverwaltung
-- Netzwerkgrundlagen (LAN/WAN/WLAN, Client-Networking)
-- Systemdokumentation & strukturierte Problemanalyse
-- SQL-Grundlagen & Datenbank-Support
-- Mitarbeit und Umsetzung kleiner IT-Projekte
-
-<br>
-
 ## Labs
 - [Lab 01](lab-01-windows-client-admin/): Windows 11 Client- & Benutzeradministration mit Support-Szenarien (in progress)
 - [Lab 02](lab-02-sql-and-database-support): SQL & Datenbank-Support für Kassensysteme (in progress)
