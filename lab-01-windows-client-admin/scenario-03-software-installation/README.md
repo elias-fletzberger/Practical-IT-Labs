@@ -3,6 +3,8 @@
 ## Problemaufnahme
 Ein Benutzer meldet, dass eine installierte Anwendung nicht gestartet werden kann.
 
+![Fehlermeldung](screenshots/01-ausgangslage-software-start-problem.png)
+
 <br>
 
 ## Analyse
@@ -29,4 +31,5 @@ Die Anwendung kann von allen Benutzern fehlerfrei gestartet werden.
 
 ## Fazit
 Korrekte Softwareinstallation und Rechtevergabe sind essenziell für einen stabilen Systembetrieb.
+
 
