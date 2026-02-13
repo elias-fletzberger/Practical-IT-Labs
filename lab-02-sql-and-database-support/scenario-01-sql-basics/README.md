@@ -27,6 +27,8 @@ Die Tabellen sind über Foreign Keys miteinander verknüpft, um referentielle In
 
 ## Umgesetzte SQL-Analysen
 
+---
+
 ### 1. Gesamtumsatz pro Filiale
 Berechnung des Umsatzes je Filiale.
 
