@@ -15,6 +15,7 @@ Ein Benutzer meldet, dass eine installierte Anwendung nicht gestartet werden kan
 
 ## Ursache
 Die Software wurde nur benutzerspezifisch und nicht für alle Profile nstalliert.
+
 ![Fehlerursache](screenshots/03-installationspfad-benutzerprofil.png)
 
 <br>
@@ -32,6 +33,7 @@ Die Anwendung kann von allen Benutzern fehlerfrei gestartet werden.
 
 ### Fazit
 Korrekte Softwareinstallation und Rechtevergabe sind essenziell für einen stabilen Systembetrieb.
+
 
 
 
