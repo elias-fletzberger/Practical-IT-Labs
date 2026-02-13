@@ -11,6 +11,8 @@ Ein Benutzer meldet, dass eine installierte Anwendung nicht gestartet werden kan
 - Auswertung der Ereignisanzeige
 - Prüfung der Installationsart und des Installationspfads
 
+![Fehlermeldung](screenshots/02-ereignisanzeige-softwarefehler.png)
+
 <br>
 
 ## Ursache
@@ -33,6 +35,7 @@ Die Anwendung kann von allen Benutzern fehlerfrei gestartet werden.
 
 ### Fazit
 Korrekte Softwareinstallation und Rechtevergabe sind essenziell für einen stabilen Systembetrieb.
+
 
 
 
