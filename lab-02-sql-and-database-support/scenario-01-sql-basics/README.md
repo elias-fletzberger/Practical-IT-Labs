@@ -10,7 +10,7 @@ Im Fokus stehen:
 - Verknüpfung mehrerer Tabellen mittels JOIN
 - Strukturierte Datenanalyse
 
----
+<br>
 
 ## Datenmodell
 
@@ -22,7 +22,8 @@ Es wurde eine vereinfachte Handelsdatenbank mit folgenden Tabellen erstellt:
 
 Die Tabellen sind über Foreign Keys miteinander verknüpft, um referentielle Integrität sicherzustellen.
 
----
+<br>
+<br>
 
 ## Umgesetzte SQL-Analysen
 
@@ -59,18 +60,3 @@ Techniken:
 Techniken:
 - WHERE-Bedingungen
 - Datenvalidierung
-
----
-
-
-## Lern- und Praxiserkenntnisse
-
-- Saubere Tabellenstruktur erleichtert spätere Analysen erheblich.
-- NUMERIC-Datentyp ist für Finanzwerte essenziell.
-- GROUP BY erfordert ein klares Verständnis der Aggregationslogik.
-- Datenvalidierung ist ein wichtiger Bestandteil administrativer Tätigkeiten.
-
----
-
-## Fazit
-Dieses Szenario demonstriert die sichere Anwendung grundlegender SQL-Techniken in einem realitätsnahen Kontext. Neben der technischen Umsetzung wurde besonderer Wert auf strukturierte Analyse und nachvollziehbare Dokumentation gelegt.
