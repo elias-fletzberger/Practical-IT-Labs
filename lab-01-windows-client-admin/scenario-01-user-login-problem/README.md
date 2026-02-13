@@ -1,6 +1,6 @@
 # Szenario 1 – Benutzer kann sich nicht anmelden (Profilproblem)
 
-## Ausgangslage
+## Problemaufnahme
 Ein Benutzer meldet, dass die Anmeldung am Windows-Client nicht möglich ist bzw. ein temporäres Profil geladen wird.
 <br>
 <br>
@@ -37,5 +37,6 @@ Benutzer kann sich wieder erfolgreich anmelden, das Profil wird korrekt geladen.
 
 ## Fazit
 Strukturiertes Vorgehen ermöglicht eine schnelle Wiederherstellung der Arbeitsfähigkeit des Anwenders.
+
 
 
