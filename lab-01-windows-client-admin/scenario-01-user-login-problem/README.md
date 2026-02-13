@@ -43,5 +43,3 @@ Benutzer kann sich wieder erfolgreich anmelden, das Profil wird korrekt geladen.
 - Netzwerk: Standard LAN/WLAN (DHCP)
 - Tools:
   - Windows Bordmittel (Ereignisanzeige, Dienste, Systemsteuerung)
-  - Eingabeaufforderung / PowerShell
-    
