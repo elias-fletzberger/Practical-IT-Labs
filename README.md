@@ -29,8 +29,8 @@ Dieses Repository dient als praxisnahes IT-Lab, um typische Aufgaben aus dem 1st
 <br>
 
 ## Labs
-- Lab 01: Windows 11 Client- & Benutzeradministration mit Support-Szenarien (in progress)
-- Lab 02: SQL & Datenbank-Support für Kassensysteme (in progress)
+- [Lab 01](lab-01-windows-client-admin/): Windows 11 Client- & Benutzeradministration mit Support-Szenarien (in progress)
+- [Lab 02](lab-02-sql-and-database-support): SQL & Datenbank-Support für Kassensysteme (in progress)
 - Lab 03: Mini-IT-Projekt: Neue Filiale anbinden (planned)
 
 <br>
