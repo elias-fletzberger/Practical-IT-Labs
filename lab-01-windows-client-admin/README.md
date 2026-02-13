@@ -32,16 +32,6 @@ Dieses Lab bildet typische Aufgaben aus dem 1st- und 2nd-Level-Support sowie der
 <br>
 <br>
 
-## Testumgebung
-- Betriebssystem: Windows 11 Pro (VM)
-- Benutzerkonten: Lokaler Administrator (admin), Standardbenutzer (user01)
-- Netzwerk: Standard LAN/WLAN (DHCP)
-- Tools:
-  - Windows Bordmittel (Ereignisanzeige, Dienste, Systemsteuerung)
-  - Eingabeaufforderung / PowerShell
-
-<br>
-
 ## Dokumentation & Vorgehensweise
 Alle Szenarien folgen einem einheitlichen Schema:
 1. Problemaufnahme (Usermeldung)
