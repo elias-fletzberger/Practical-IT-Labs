@@ -1,6 +1,6 @@
 # Szenario 2 – Keine Netzwerkverbindung / kein Internetzugang
 
-## Ausgangslage
+## Problemaufnahme
 Ein Arbeitsplatz meldet fehlenden Internetzugang, obwohl die Netzwerkverbindung aktiv ist, andere Systeme sind nicht betroffen.
 <br>
 <br>
@@ -37,6 +37,7 @@ Internetverbindung und Namensauflösung funktionieren wieder einwandfrei.
 
 ## Fazit
 Systematische Netzwerkdiagnose ermöglicht eine schnelle Eingrenzung der Fehlerursache.
+
 
 
 
