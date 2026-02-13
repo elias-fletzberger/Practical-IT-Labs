@@ -31,8 +31,9 @@ Dieses Lab bildet typische Aufgaben aus dem 1st- und 2nd-Level-Support sowie der
 
 <br>
 <br>
+<br>
 
-## Dokumentation & Vorgehensweise
+### Dokumentation & Vorgehensweise
 Alle Szenarien folgen einem einheitlichen Schema:
 1. Problemaufnahme (Usermeldung)
 2. Analyse und Eingrenzung
@@ -43,7 +44,3 @@ Alle Szenarien folgen einem einheitlichen Schema:
 Das Vorgehen orientiert sich an einem strukturierten Supportprozess.
 (Problemaufnahme → Analyse → Ursache → Lösung → Verifikation)
 
-<br>
-
-## Fazit
-Dieses Lab demonstriert praxisnah typische Support- und Administrationsaufgaben im Windows-Umfeld. Es zeigt ein strukturiertes Vorgehen bei der Fehleranalyse sowie einen sicheren Umgang mit Benutzerkonten, Netzwerkdiagnose und Softwareinstallation im Client-Betrieb.
