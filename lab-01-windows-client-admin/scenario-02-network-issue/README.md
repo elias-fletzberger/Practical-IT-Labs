@@ -35,8 +35,9 @@ Internetverbindung und Domain-Namensauflösung funktionieren wieder einwandfrei.
 
 <br>
 
-## Fazit
+### Fazit
 Systematische Netzwerkdiagnose ermöglicht eine schnelle Eingrenzung der Fehlerursache.
+
 
 
 
