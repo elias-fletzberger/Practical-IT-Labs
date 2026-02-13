@@ -10,7 +10,7 @@ Dieses Repository dient als praxisnahes IT-Lab, um typische Aufgaben aus dem 1st
 <br>
 
 ## Ziel dieses Repositories
-- Nachweis praktischer IT-Kenntnisse über Zertifikate hinaus
+- aufzeigen praktischer IT-Kenntnisse über Zertifikate hinaus
 - Vorbereitung auf Positionen im IT-Support, Helpdesk und in der Systemadministration
 - Abbildung typischer Aufgaben aus Infrastruktur-, Anwender- und Systembetrieb
 - Demonstration von Analysefähigkeit, strukturierter Arbeitsweise und Serviceorientierung
@@ -30,7 +30,7 @@ Dieses Repository dient als praxisnahes IT-Lab, um typische Aufgaben aus dem 1st
 
 ## Labs
 - Lab 01: Windows 11 Client- & Benutzeradministration mit Support-Szenarien (in progress)
-- Lab 02: SQL & Datenbank-Support für Kassensysteme (planned)
+- Lab 02: SQL & Datenbank-Support für Kassensysteme (in progress)
 - Lab 03: Mini-IT-Projekt: Neue Filiale anbinden (planned)
 
 <br>
