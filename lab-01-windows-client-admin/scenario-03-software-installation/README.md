@@ -32,12 +32,13 @@ Die Software wurde nur benutzerspezifisch und nicht für alle Profile nstalliert
 Die Anwendung kann von allen Benutzern fehlerfrei gestartet werden.
 
 <br>
+<br>
+<br>
 
-### Fazit
-Korrekte Softwareinstallation und Rechtevergabe sind essenziell für einen stabilen Systembetrieb.
-
-
-
-
-
+### Testumgebung
+- Betriebssystem: Windows 11 Pro (VM)
+- Benutzerkonten: Lokaler Administrator (admin), Standardbenutzer (user01)
+- Netzwerk: Standard LAN/WLAN (DHCP)
+- Tools:
+  - Windows Bordmittel (Ereignisanzeige, Dienste, Systemsteuerung)
 
