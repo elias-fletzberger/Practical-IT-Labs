@@ -34,20 +34,13 @@ Falsch konfigurierte DNS-Einstellungen am Client.
 Internetverbindung und Domain-Namensauflösung funktionieren wieder einwandfrei.
 
 <br>
+<br>
+<br>
 
-### Fazit
-Systematische Netzwerkdiagnose ermöglicht eine schnelle Eingrenzung der Fehlerursache.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+### Testumgebung
+- Betriebssystem: Windows 11 Pro (VM)
+- Benutzerkonten: Lokaler Administrator (admin), Standardbenutzer (user01)
+- Netzwerk: Standard LAN/WLAN (DHCP)
+- Tools:
+  - Windows Bordmittel (Ereignisanzeige, Dienste, Systemsteuerung)
+  - Eingabeaufforderung / PowerShell
