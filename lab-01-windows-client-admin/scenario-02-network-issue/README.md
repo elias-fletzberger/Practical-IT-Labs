@@ -42,5 +42,5 @@ Internetverbindung und Domain-Namensauflösung funktionieren wieder einwandfrei.
 - Benutzerkonten: Lokaler Administrator (admin), Standardbenutzer (user01)
 - Netzwerk: Standard LAN/WLAN (DHCP)
 - Tools:
-  - Windows Bordmittel (Ereignisanzeige, Dienste, Systemsteuerung)
-  - Eingabeaufforderung / PowerShell
+  - Windows Bordmittel (PowerShell)
+
