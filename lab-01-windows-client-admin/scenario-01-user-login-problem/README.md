@@ -35,8 +35,9 @@ Benutzer kann sich wieder erfolgreich anmelden, das Profil wird korrekt geladen.
 
 <br>
 
-## Fazit
+### Fazit
 Strukturiertes Vorgehen ermöglicht eine schnelle Wiederherstellung der Arbeitsfähigkeit des Anwenders.
+
 
 
 
