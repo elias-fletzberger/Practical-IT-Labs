@@ -1,10 +1,8 @@
 # Lab 02 - SQL und Datenbank Support
 
 ## Ziel des Labs
-- SQL-Grundlagen festigen
-- Datenbankstrukturen verstehen
-- Daten analysieren
-- Support-Szenarien mit SQL lösen
+Dieses Lab dient dazu die Grundlagen und den sicheren Umgang mit SQL in reelen Anwendungsszenarien darzustellen.
+Ziel ist es, Datenbankstrukturen zu verstehen, Abfragen zu formulieren und Daten systematisch zu analysieren.
 
 <br>
 
@@ -26,10 +24,3 @@
 ### Szenario 2 – Support Szenario
 - [zu Szenario 2](scenario-02-register-system-support)
 - Schwerpunkt: Fehler suchen, Dokumentation
-  
-<br>
-<br>
-
-## Fazit
-
-
