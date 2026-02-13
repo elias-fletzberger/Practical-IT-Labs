@@ -29,7 +29,8 @@ Die Anwendung kann von allen Benutzern fehlerfrei gestartet werden.
 
 <br>
 
-## Fazit
+### Fazit
 Korrekte Softwareinstallation und Rechtevergabe sind essenziell für einen stabilen Systembetrieb.
+
 
 
