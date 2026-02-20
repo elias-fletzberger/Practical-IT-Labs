@@ -28,11 +28,11 @@ Die Ursache deutet auf einen Import- oder Erfassungsfehler hin.
 
 ## Maßnahme
 Die fehlerhafte Mengenangabe wurde korrigiert und anschließend die Umsatzberechnung erneut überprüft.
-`UPDATE sales`
+<br>`UPDATE sales`
 <br>`SET quantity = 150`
 <br>`WHERE store_id = 2`
-<br>`AND product_id = 3`
-<br>`AND sale_date = '2026-02-10';`
+<br>`  AND product_id = 3`
+<br>`  AND sale_date = '2026-02-10';`
 
 ![correction and final check](screenshots/04-correction-and-final-check.png)
 
