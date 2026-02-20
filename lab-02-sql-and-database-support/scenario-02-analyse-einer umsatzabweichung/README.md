@@ -27,7 +27,9 @@ Die Ursache deutet auf einen Import- oder Erfassungsfehler hin.
 <br>
 
 ## Maßnahme
-Die fehlerhafte Mengenangabe wurde korrigiert und anschließend die Umsatzberechnung erneut überprüft.
+Die fehlerhafte Mengenangabe wurde mittels `UPDATE`-Anweisung korrigiert und anschließend die Umsatzberechnung erneut überprüft.
+
+#### Query
 <br>`UPDATE sales`
 <br>`SET quantity = 150`
 <br>`WHERE store_id = 2`
