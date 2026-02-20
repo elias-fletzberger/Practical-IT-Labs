@@ -1,24 +1,32 @@
 # Szenario 02 – Analyse einer Umsatzabweichung
 
-## Ziel
-Analyse einer Abweichung im Tagesumsatz einer Filiale mittels SQL-Abfragen.
+## Problemaufnahme
+Die Filiale Berlin meldete am 10.02.2026 einen deutlich zu niedrigen Tagesumsatz im Vergleich zu den Vortagen.
+<br>
+<br>
+![Ausgangslage](screenshots/01-daily-sales-comparison.png)
 
-## Ausgangsdaten
-Die Datenbank enthält Verkaufsdaten für mehrere Filialen am 10.02.2026.
+<br>
 
 ## Analyse
-1. Vergleich des Tagesumsatzes aller Filialen
-2. Detailanalyse der betroffenen Filiale
-3. Vergleich einzelner Produktverkäufe mit anderen Filialen
+Zunächst wurde der Tagesumsatz aller Filialen verglichen, um die Abweichung einzugrenzen. Dabei zeigte sich, dass ausschließlich Berlin auffällig war.
 
-## Feststellung
-Die Filiale Berlin weist eine signifikant geringere Verkaufsmenge für ein bestimmtes Produkt auf.
+Im nächsten Schritt wurden die einzelnen Produktverkäufe der betroffenen Filiale analysiert. Ein Produkt wies eine ungewöhnlich geringe Verkaufsmenge auf.
+
+Ein Vergleich mit anderen Filialen bestätigte die Abweichung.
+
+<br>
 
 ## Ursache
-Fehlerhafte Mengenangabe im Datensatz (quantity = 15 statt 150).
+Im Datensatz war für das Produkt eine fehlerhafte Verkaufsmenge hinterlegt (15 statt 150).  
+Die Ursache deutet auf einen Import- oder Erfassungsfehler hin.
 
-## Lösung
-Korrektur des Datensatzes mittels UPDATE-Anweisung.
+<br>
+
+## Maßnahme
+Die fehlerhafte Mengenangabe wurde korrigiert und anschließend die Umsatzberechnung erneut überprüft.
+
+<br>
 
 ## Ergebnis
-Der Tagesumsatz entspricht wieder den erwarteten Werten.
+Nach der Korrektur entsprach der Tagesumsatz wieder den erwarteten Werten.
