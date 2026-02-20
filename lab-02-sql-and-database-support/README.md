@@ -22,5 +22,6 @@ Ziel ist es, Datenbankstrukturen zu verstehen, Abfragen zu formulieren und Daten
 - Schwerpunkt: Daten einfügen, Abfragen schreiben
 
 ### Szenario 2 – Support Szenario
-- [zu Szenario 2](scenario-02-register-system-support)
+- [zu Szenario 2](scenario-02-analys-sales-variance)
 - Schwerpunkt: Fehler suchen, Dokumentation
+
