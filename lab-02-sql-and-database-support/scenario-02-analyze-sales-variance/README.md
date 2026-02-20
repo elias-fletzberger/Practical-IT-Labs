@@ -1,4 +1,4 @@
-# Szenario 02 – Analyse einer Umsatzabweichung
+# Szenario 02 – Supportfall: Abweichender Tagesumsatz
 
 ## Problemaufnahme
 Die Filiale Berlin meldete am 10.02.2026 einen deutlich zu niedrigen Tagesumsatz im Vergleich zu den Vortagen.
