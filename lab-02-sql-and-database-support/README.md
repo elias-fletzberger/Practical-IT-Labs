@@ -1,27 +1,36 @@
 # Lab 02 - SQL und Datenbank Support
 
 ## Ziel des Labs
-Dieses Lab dient dazu die Grundlagen und den sicheren Umgang mit SQL in reelen Anwendungsszenarien darzustellen.
-Ziel ist es, Datenbankstrukturen zu verstehen, Abfragen zu formulieren und Daten systematisch zu analysieren.
+Dieses Lab demonstriert den sicheren Umgang mit SQL in praxisnahen Anwendungsszenarien darzustellen.
+
+Ziel ist es,
+- relationale Datenbankstrukturen zu verstehen,
+- Abfragen strukturiert zu formulieren,
+- Daten systematisch zu analysieren
+- und typische Support-Fälle im Datenbankkontext nachvollziehbar zu dokumentieren.
 
 <br>
 
-## Schwerpunkte:
+## Schwerpunkte
 - SELECT, WHERE, GROUP BY, JOIN
 - Aggregatfunktionen (SUM, COUNT)
-- Fehleranalyse in Datenbeständen
-- Dokumentation von Analyseprozessen
+- Mehrtabellen-Analysen
+- Datenvalidierung und Plausibilitätsprüfungen
+- Strukturierte Fehleranalyse im Support-Kontext
   
 <br>
 <br>
 
 ## Szenarien Übersicht
 
-### Szenario 1 – technisches SQL Lab
+### Szenario 1 – Technisches SQL Lab
 - [zu Szenario 1](scenario-01-sql-basics)
-- Schwerpunkt: Daten einfügen, Abfragen schreiben
+- Schwerpunkt: Aufbau eines relationalen Datenmodells, Datenmanipulation und analytische SQL-Abfragen
 
-### Szenario 2 – Support Szenario
-- [zu Szenario 2](scenario-02-analys-sales-variance)
-- Schwerpunkt: Fehler suchen, Dokumentation
+---
+
+### Szenario 2 – Supportfall: Abweichender Tagesumsatz
+- [zu Szenario 2](scenario-02-analyze-sales-variance)
+- Schwerpunkt: Systematische Analyse einer Umsatzabweichung und gezielte Datenkorrektur
+
 
