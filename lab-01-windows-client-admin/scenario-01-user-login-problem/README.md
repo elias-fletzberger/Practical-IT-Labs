@@ -13,7 +13,7 @@ Ein Benutzer meldet, dass die Anmeldung am Windows-Client nicht möglich ist bzw
 - Benutzeranmeldung führte zu einem temporären Profil
 - Prüfung der Ereignisanzeige ergab Fehler des „User Profile Service“
 
-  ![Ereignisanzeige](screenshots/02-ereignisanzeige-user-profile-service-1533.png)
+![Ereignisanzeige](screenshots/02-ereignisanzeige-user-profile-service-1533.png)
 - Überprüfung des Profilverzeichnisses unter `C:\Users` zeigte eine inkonsistente Ordnerstruktur
 
 <br>
@@ -43,3 +43,4 @@ Benutzer kann sich wieder erfolgreich anmelden, das Profil wird korrekt geladen.
 - Netzwerk: Standard LAN/WLAN (DHCP)
 - Tools:
   - Windows Bordmittel (Ereignisanzeige, Dienste, Systemsteuerung)
+
