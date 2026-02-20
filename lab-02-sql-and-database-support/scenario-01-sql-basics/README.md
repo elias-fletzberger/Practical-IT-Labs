@@ -3,7 +3,7 @@
 ## Ziel des Szenarios
 Ziel dieses Szenarios ist die Auffrischung und Vertiefung grundlegender SQL-Kenntnisse anhand eines praxisnahen Datenmodells im Handelsumfeld.
 
-Im Fokus stehen:
+Schwerpunkt:
 - Erstellung relationaler Tabellen
 - Definition von Primary- und Foreign-Keys
 - Arbeit mit Aggregatfunktionen
@@ -31,34 +31,35 @@ Die Tabellen sind über Foreign Keys miteinander verknüpft, um referentielle In
 
 ### 1. Gesamtumsatz pro Filiale
 Berechnung des Umsatzes je Filiale.
-
-Techniken:
-- JOIN / SUM() / GROUP BY / ORDER BY
 - sortiert nach Umsatzhöhe (absteigend)
 
 ---
 
 ### 2. Umsatz pro Produkt
 Analyse der Verkaufsleistung einzelner Produkte.
-
-Techniken:
-- JOIN / SUM() / GROUP BY / ORDER BY
 - sortiert nach Umsatzhöhe (absteigend)
 
 ---
 
 ### 3. Tagesumsatz je Filiale
 Mehrdimensionale Gruppierung nach Datum und Filiale.
-
-Techniken:
-- JOIN / SUM() / GROUP BY / ORDER BY
 - sortiert nach Datum
 
 ---
 
-### 4. + 5. Plausibilitätsprüfung der Verkaufsdaten
-Überprüfung auf fehlerhafte oder unrealistische Einträge (z. B. Menge ≤ 0, Datum = Null).
+### 4. Plausibilitätsprüfung der Verkaufsdaten
+Überprüfung auf plausible Verkaufsdaten (z.B. Datum = Null).
 
-Techniken:
+---
+
+### 5. Datenvalidierung der Verkaufsmengen
+Fehlerhafte oder unrealistische Verkaufsmenge (z. B. Menge ≤ 0).
+
+---
+
+#### Eingesetzte Techniken:
 - WHERE-Bedingungen
-- Datenvalidierung
+- JOIN zur Verknüpfung relationaler Tabellen
+- Aggregatfunktion SUM()
+- GROUP BY zur Gruppierung von Datensätzen
+- ORDER BY zur Ergebnisstrukturierung
