@@ -8,11 +8,15 @@ Die Filiale Berlin meldete am 10.02.2026 einen deutlich zu niedrigen Tagesumsatz
 ## Analyse
 Zunächst wurde der Tagesumsatz aller Filialen verglichen, um die Abweichung einzugrenzen. Dabei zeigte sich, dass ausschließlich Berlin auffällig war.
 
-![Ausgangslage](screenshots/01-daily-sales-comparison.png)
+![daily sales comparison](screenshots/01-daily-sales-comparison.png)
 
 Im nächsten Schritt wurden die einzelnen Produktverkäufe der betroffenen Filiale analysiert. Ein Produkt wies eine ungewöhnlich geringe Verkaufsmenge auf.
 
+![analysis specific store](screenshots/02-analysis-specific-store.png)
+
 Ein Vergleich mit anderen Filialen bestätigte die Abweichung.
+
+![product comparison](screenshots/03-product-comparison.png)
 
 <br>
 
@@ -24,6 +28,12 @@ Die Ursache deutet auf einen Import- oder Erfassungsfehler hin.
 
 ## Maßnahme
 Die fehlerhafte Mengenangabe wurde korrigiert und anschließend die Umsatzberechnung erneut überprüft.
+`UPDATE sales
+SET quantity = 150
+WHERE store_id = 2
+  AND product_id = 3
+  AND sale_date = '2026-02-10';`
+![correction and final check](screenshots/04-correction-and-final-check.png)
 
 <br>
 
