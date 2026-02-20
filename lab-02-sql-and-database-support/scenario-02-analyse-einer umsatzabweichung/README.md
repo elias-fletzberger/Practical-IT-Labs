@@ -2,14 +2,13 @@
 
 ## Problemaufnahme
 Die Filiale Berlin meldete am 10.02.2026 einen deutlich zu niedrigen Tagesumsatz im Vergleich zu den Vortagen.
-<br>
-<br>
-![Ausgangslage](screenshots/01-daily-sales-comparison.png)
 
 <br>
 
 ## Analyse
 Zunächst wurde der Tagesumsatz aller Filialen verglichen, um die Abweichung einzugrenzen. Dabei zeigte sich, dass ausschließlich Berlin auffällig war.
+
+![Ausgangslage](screenshots/01-daily-sales-comparison.png)
 
 Im nächsten Schritt wurden die einzelnen Produktverkäufe der betroffenen Filiale analysiert. Ein Produkt wies eine ungewöhnlich geringe Verkaufsmenge auf.
 
